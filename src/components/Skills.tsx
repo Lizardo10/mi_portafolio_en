@@ -8,7 +8,19 @@ import {
 import React from "react";
 import SkillDataProvider from "./sub/SkillDataProvider";
 import SkillText from "./sub/SkillText";
+interface ImageType {
+  Image: any;
+  width: number;
+  height: number;
+}
+
 const Skills = () => {
+  const skillData: ImageType[] = Skill_data;
+  const frontendSkill: ImageType[] = Frontend_skill;
+  const backendSkill: ImageType[] = Backend_skill;
+  const fullStack: ImageType[] = Full_stack;
+  const otherSkill: ImageType[] = Other_skill;
+  
   return (
     <section
       id="skills"
@@ -30,7 +42,7 @@ const Skills = () => {
 </div>
 
 <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-  {Frontend_skill.map((image, index) => (
+  {Frontend_skill.map((image: any, index: number) => (
     <SkillDataProvider
       key={index}
       src={image.Image}
