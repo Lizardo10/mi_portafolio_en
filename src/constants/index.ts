@@ -92,6 +92,13 @@ export const Skill_data = [
       src: "/gmail.png",
       link:"mailto:lizardoperezjimenez@gmail.com"
     },
+    // whatsapp
+    {
+      name: "Whatsapp",
+      src: "/whatsapp.svg",
+      link:"https://wa.me/+50258186927"
+    },
+
   ];
   
   
