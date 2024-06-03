@@ -84,7 +84,7 @@ export default function Page() {
           <h2 className="text-3xl font-semibold mb-2">
           Full stack developer (Remote)  @ <span className="text-blue-600">Alpha Roofing Products</span>
           </h2>
-          <p className="text-gray-600 mb-4">January 2024 - Present</p>
+          <p className="text-gray-600 mb-4">January 2024 - April</p>
           <ul className="list-disc pl-5 mb-8">
           <p className="mt-2 text-lg">
                         - Create and Management of APIs with Nestjs
